@@ -1,6 +1,6 @@
 import { Counter } from './utils/Counter'
 export const App = () => {
-  const name = 'sdfa'
+  const name = 'afa'
   return (
     <div>
       <h1>Hello surya ..! learning the webpack in {name}react</h1>
