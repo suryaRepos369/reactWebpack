@@ -1,4 +1,14 @@
+import {Counter} from './utils/Counter'
 export const App=()=>{
-    return <h1>React template Webpack learning</h1>
+    return <div>
+        <h1>
+            Hello surya ..! learning the webpack in react
+        </h1>
+        <h2>
+            project runs in {process.env.NODE_ENV}
+        </h2>
+        <Counter></Counter>
+    </div>
+
 
 }
